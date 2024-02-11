@@ -59,7 +59,7 @@ LRESULT CALLBACK WindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lPara
 	}
 	break;
 	case WM_MOUSEMOVE:
-	{
+	{ 
 		RECT rect;
 		GetClientRect(hWnd, &rect);
 		int x = LOWORD(lParam);
